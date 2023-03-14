@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "build": "tailwindcss build css/app.css -o public/css/output.css"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.2.7"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.3"
+    }
+}
