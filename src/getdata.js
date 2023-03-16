@@ -204,12 +204,12 @@ $(document).ready(function() {
 
                 var $row = $("<tr>").addClass("border-b border-black").append(
                     // table cells...
-                    $("<td>").addClass("w-1/4 px-4 py-2 border-black hidden").text(row.id),
-                    $("<td>").addClass("w-1/4 px-4 py-2 border-black").text(row.title),
+                    $("<td>").addClass("w-1/4 px-4 py-2 border border-black hidden").text(row.id),
+                    $("<td>").addClass("w-1/4 px-4 py-2 border border-black").text(row.title),
 
-                    $("<td>").addClass("w-1/5 px-4 py-2 border-black").html("<img src='" + row.image + "' class='w-full h-full object-contain rounded-lg' style='display:flex; align-items:center; text-align:center;'>"),
+                    $("<td>").addClass("w-1/5 px-4 py-2 border border-black").html("<img src='" + row.image + "' class='w-full h-full object-contain rounded-lg' style='display:flex; align-items:center; text-align:center;'>"),
 
-                    $("<td>").addClass("w-1/4 px-4 py-2 border-black").text(row.about),
+                    $("<td>").addClass("w-1/4 px-4 py-2 border border-black").text(row.about),
                     $("<td>").append($buttonsContainer)
 
                 );

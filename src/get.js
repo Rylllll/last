@@ -25,7 +25,7 @@ function updateUserName() {
             if (data) {
                 console.log("User is logged in.");
                 $("#navbar-login-btn").hide(); // hide the login button
-                $("#navbar").html('<a href="dashboard.html" class="p-2 px-6 pt-2 text-white bg-black rounded-md baseline hover:bg-blue-400 hover:text-black">' + data + '</a>');
+                $("#navbar").html('<a href="dashboard.html" class="p-2 px-6 pt-2 text-white bg-black rounded-md baseline hover:bg-blue-400 hover:text-black"> Welcome, ' + data + '</a>');
             } else {
                 console.log("User is not logged in.");
                 $("#navbar-login-btn").show(); // show the login button

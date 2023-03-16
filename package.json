@@ -1,9 +1,12 @@
 {
     "scripts": {
-        "build": "tailwindcss build css/app.css -o public/css/output.css"
+        "build": "tailwindcss build css/app.css -o public/css/output.css",
+        "watch": "webpack --watch",
+        "start": "webpack-dev-server --open"
     },
     "devDependencies": {
-        "tailwindcss": "^3.2.7"
+        "tailwindcss": "^3.2.7",
+        "webpack-cli": "^5.0.1"
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.5.3"
